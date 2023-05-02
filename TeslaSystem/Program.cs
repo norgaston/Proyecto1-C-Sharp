@@ -3,24 +3,27 @@ using System.Collections.Generic;
 
 namespace TeslaSystem
 {
+    // Declaración de la estructura Tesla que almacena información sobre un automóvil Tesla
     public struct Tesla
     {
-        public string Modelo;
-        public int Anio;
-        public double KmActual;
-        public double KmService;
-        public string Color;
-        public string Dueno;
+        public string Modelo; // El modelo del Tesla
+        public int Anio; // El año del Tesla
+        public double KmActual; // El kilometraje actual del Tesla
+        public double KmService; // El kilometraje del último service del Tesla
+        public string Color; // El color del Tesla
+        public string Dueno; // El dueño del Tesla
     }
 
     class Program
     {
+        // Declaración de la lista de Teslas
         static List<Tesla> TeslaList = new List<Tesla>();
 
         static void Main(string[] args)
         {
             while (true)
             {
+                // Menú principal del programa
                 Console.WriteLine("\n\nBienvenido al Sistema Tesla!");
                 Console.WriteLine("Seleccione una opcion:");
                 Console.WriteLine("1 - Dar de alta un Tesla.");
@@ -30,8 +33,10 @@ namespace TeslaSystem
                 Console.WriteLine("5 - Mostrar el Tesla con más kms.");
                 Console.WriteLine("0 - Salir.");
 
+                // Obtener la opción seleccionada por el usuario
                 int opcion = Convert.ToInt32(Console.ReadLine());
 
+                // Realizar la acción correspondiente a la opción seleccionada
                 switch (opcion)
                 {
                     case 0:
@@ -59,8 +64,10 @@ namespace TeslaSystem
             }
         }
 
+        // Función para dar de alta un nuevo Tesla en la lista
         static void DarDeAlta()
         {
+            // Crear un nuevo Tesla y pedir al usuario que ingrese sus detalles
             Tesla nuevoTesla = new Tesla();
 
             Console.WriteLine("\n\nIngrese el modelo:");
@@ -81,10 +88,12 @@ namespace TeslaSystem
             Console.WriteLine("Ingrese el dueño:");
             nuevoTesla.Dueno = Console.ReadLine();
 
+            // Agregar el nuevo Tesla a la lista
             TeslaList.Add(nuevoTesla);
             Console.WriteLine("Tesla agregado exitosamente!");
         }
 
+        // Función para eliminar un Tesla de la lista
         static void EliminarTesla()
         {
             Console.WriteLine("\n\nIngrese el indice del Tesla a eliminar:");
@@ -103,27 +112,34 @@ namespace TeslaSystem
 
         static void ListadoOrdenadoPorAnio()
         {
+            // Ordena la lista de Teslas por año utilizando la función Sort y una lambda expression que compara los años de dos Teslas.
             TeslaList.Sort((x, y) => x.Anio.CompareTo(y.Anio));
             Console.WriteLine("\n\nListado de Teslas ordenados por año:");
+            // Recorre la lista ordenada y muestra la información de cada Tesla.
             foreach (Tesla t in TeslaList)
             {
                 Console.WriteLine($"Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
             }
         }
+
         static void ReordenarPorKms()
         {
+            // Ordena la lista de Teslas por kilómetros utilizando la función Sort y una lambda expression que compara los kilómetros de dos Teslas.
             TeslaList.Sort((x, y) => x.KmActual.CompareTo(y.KmActual));
             Console.WriteLine("\n\nListado de Teslas reordenados por kilometraje actual:");
+            // Recorre la lista ordenada y muestra la información de cada Tesla.
             foreach (Tesla t in TeslaList)
             {
                 Console.WriteLine($"Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
             }
         }
 
-    static void MostrarMasKms()
+        static void MostrarMasKms()
         {
+            // Inicializa la variable maxKmTesla con el primer Tesla de la lista.
             Tesla maxKmTesla = TeslaList[0];
 
+            // Recorre la lista de Teslas y actualiza maxKmTesla si encuentra un Tesla con más kilómetros que el actual.
             foreach (Tesla t in TeslaList)
             {
                 if (t.KmActual > maxKmTesla.KmActual)
@@ -132,6 +148,7 @@ namespace TeslaSystem
                 }
             }
 
+            // Muestra la información del Tesla con más kilómetros.
             Console.WriteLine($"\n\nEl Tesla con más kilometraje es: {maxKmTesla.Modelo} ({maxKmTesla.Anio}), con {maxKmTesla.KmActual} km.");
         }
     }
