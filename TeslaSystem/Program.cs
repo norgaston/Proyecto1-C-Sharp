@@ -53,7 +53,7 @@ namespace TeslaSystem
                         MostrarMasKms();
                         break;
                     default:
-                        Console.WriteLine("Opcion invalida.");
+                        Console.WriteLine("Opcion inválida.");
                         break;
                 }
             }
