@@ -1,4 +1,4 @@
-# Proyecto1-C-Sharp
+# Proyecto 1 Tema 3
 El Señor E. Musk nos contacta para solicitarnos el diseño e implementación de un sistema básico para registrar información de su empresa Tesla.
 
 De ellos quiere guardar el modelo, año, kilometraje actual, kilometraje de Service, color y el Dueño del mismo para mantener estadística y trazabilidad de sus productos.
