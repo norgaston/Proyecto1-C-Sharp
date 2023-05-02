@@ -110,6 +110,8 @@ namespace TeslaSystem
             }
         }
 
+
+        // Función para ordenar Teslas por año
         static void ListadoOrdenadoPorAnio()
         {
             // Ordena la lista de Teslas por año utilizando la función Sort y una lambda expression que compara los años de dos Teslas.
@@ -122,6 +124,7 @@ namespace TeslaSystem
             }
         }
 
+        // Función para ordenar Teslas por kilómetros
         static void ReordenarPorKms()
         {
             // Ordena la lista de Teslas por kilómetros utilizando la función Sort y una lambda expression que compara los kilómetros de dos Teslas.
@@ -134,6 +137,7 @@ namespace TeslaSystem
             }
         }
 
+        // Función para mostrar el Tesla con más kilometraje
         static void MostrarMasKms()
         {
             // Inicializa la variable maxKmTesla con el primer Tesla de la lista.
