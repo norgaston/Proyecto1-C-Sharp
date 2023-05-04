@@ -1,0 +1,30 @@
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\obj\Debug\net6.0\TeslaSystem.csproj.AssemblyReference.cache
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\obj\Debug\net6.0\TeslaSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\obj\Debug\net6.0\TeslaSystem.AssemblyInfoInputs.cache
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\obj\Debug\net6.0\TeslaSystem.AssemblyInfo.cs
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\obj\Debug\net6.0\TeslaSystem.csproj.CoreCompileInputs.cache
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\bin\Debug\net6.0\TeslaSystem.exe
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\bin\Debug\net6.0\TeslaSystem.deps.json
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\bin\Debug\net6.0\TeslaSystem.runtimeconfig.json
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\bin\Debug\net6.0\TeslaSystem.dll
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\bin\Debug\net6.0\TeslaSystem.pdb
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\obj\Debug\net6.0\TeslaSystem.dll
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\obj\Debug\net6.0\refint\TeslaSystem.dll
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\obj\Debug\net6.0\TeslaSystem.pdb
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\obj\Debug\net6.0\TeslaSystem.genruntimeconfig.cache
+C:\Users\Gaston\source\repos\TeslaSystem\TeslaSystem\obj\Debug\net6.0\ref\TeslaSystem.dll
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\bin\Debug\net6.0\TeslaSystem.exe
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\bin\Debug\net6.0\TeslaSystem.deps.json
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\bin\Debug\net6.0\TeslaSystem.runtimeconfig.json
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\bin\Debug\net6.0\TeslaSystem.dll
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\bin\Debug\net6.0\TeslaSystem.pdb
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\TeslaSystem.csproj.AssemblyReference.cache
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\TeslaSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\TeslaSystem.AssemblyInfoInputs.cache
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\TeslaSystem.AssemblyInfo.cs
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\TeslaSystem.csproj.CoreCompileInputs.cache
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\TeslaSystem.dll
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\refint\TeslaSystem.dll
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\TeslaSystem.pdb
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\TeslaSystem.genruntimeconfig.cache
+C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\ref\TeslaSystem.dll
