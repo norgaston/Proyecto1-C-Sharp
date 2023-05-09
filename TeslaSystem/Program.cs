@@ -53,7 +53,7 @@ namespace TeslaSystem
                         OrdenadoPorAnio.ListadoOrdenadoPorAnio();
                         break;
                     case 4:
-                        ReordenarPorKms();
+                        OrdenadoPorKms.ReordenarPorKms();
                         break;
                     case 5:
                         MostrarMasKms();
@@ -129,17 +129,17 @@ namespace TeslaSystem
         //}
 
         // Función para ordenar Teslas por kilómetros
-        static void ReordenarPorKms()
-        {
-            // Ordena la lista de Teslas por kilómetros utilizando la función Sort y una lambda expression que compara los kilómetros de dos Teslas.
-            TeslaList.Sort((x, y) => x.KmActual.CompareTo(y.KmActual));
-            Console.WriteLine("\n\nListado de Teslas reordenados por kilometraje actual:");
-            // Recorre la lista ordenada y muestra la información de cada Tesla.
-            foreach (Tesla t in TeslaList)
-            {
-                Console.WriteLine($"Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
-            }
-        }
+        //static void ReordenarPorKms()
+        //{
+        //    // Ordena la lista de Teslas por kilómetros utilizando la función Sort y una lambda expression que compara los kilómetros de dos Teslas.
+        //    TeslaList.Sort((x, y) => x.KmActual.CompareTo(y.KmActual));
+        //    Console.WriteLine("\n\nListado de Teslas reordenados por kilometraje actual:");
+        //    // Recorre la lista ordenada y muestra la información de cada Tesla.
+        //    foreach (Tesla t in TeslaList)
+        //    {
+        //        Console.WriteLine($"Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
+        //    }
+        //}
 
         // Función para mostrar el Tesla con más kilometraje
         static void MostrarMasKms()
