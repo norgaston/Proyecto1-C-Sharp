@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TeslaSystem
 {
+    // Función para ordenar Teslas por kilómetros
     public class OrdenadoPorKms
     {
         public static void ReordenarPorKms()
