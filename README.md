@@ -1,4 +1,5 @@
-# Proyecto 1 Tema 3
+# Proyecto 1 Tema 3 - PROGRAMACIÓN C#/.NET - TU TECNOLOGÍAS DE PROGRAMACION - UPSO 2023
+
 El Señor E. Musk nos contacta para solicitarnos el diseño e implementación de un sistema básico para registrar información de su empresa Tesla.
 
 De ellos quiere guardar el modelo, año, kilometraje actual, kilometraje de Service, color y el Dueño del mismo para mantener estadística y trazabilidad de sus productos.
@@ -7,12 +8,12 @@ Luego de varias reuniones con el señor Musk, se llegó al acuerdo de realizar e
 
  
 
-Dar de alta un Tesla.
+* Dar de alta un Tesla.
 
-Eliminar un Tesla.
+* Eliminar un Tesla.
 
-Mostrar un listado de los Tesla ordenados por año.
+* Mostrar un listado de los Tesla ordenados por año.
 
-Reordenar por el listado de los Tesla por kms.
+* Reordenar por el listado de los Tesla por kms.
 
-Mostrar el Tesla mas kms.
+* Mostrar el Tesla mas kms.
