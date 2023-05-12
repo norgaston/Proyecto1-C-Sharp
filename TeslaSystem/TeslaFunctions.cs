@@ -14,7 +14,7 @@ namespace TeslaSystem
         public string Dueno; // El dueño del Tesla
     }
 
-    public static class TeslaFunctions
+    public struct TeslaFunctions
     {
         // Función para dar de alta un nuevo Tesla en la lista
         public static void DarDeAlta(List<Tesla> TeslaList)
@@ -49,7 +49,7 @@ namespace TeslaSystem
         public static void EliminarTesla(List<Tesla> TeslaList)
         {
             ListarTeslas(TeslaList);
-            Console.WriteLine("\n\nIngrese el índice del Tesla a eliminar:");
+            Console.WriteLine("\n\nIngrese el id del Tesla a eliminar:");
             int indice = Convert.ToInt32(Console.ReadLine());
 
             if (indice < TeslaList.Count)
@@ -59,7 +59,7 @@ namespace TeslaSystem
             }
             else
             {
-                Console.WriteLine("Índice inválido.");
+                Console.WriteLine("Id inválido.");
             }
         }
 
@@ -71,7 +71,7 @@ namespace TeslaSystem
             for (int i = 0; i < TeslaList.Count; i++)
             {
                 Tesla t = TeslaList[i];
-                Console.WriteLine($"Índice: {i}, Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
+                Console.WriteLine($"Id: {i}, Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
             }
         }
 
