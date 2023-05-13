@@ -57,7 +57,8 @@ namespace TeslaSystem
           
                 if (indice < TeslaList.Count)
                 {
-                    Console.WriteLine("\n\nEstá seguro de que quiere eliminar Tesla? (s/n)");
+                    Tesla Tx = TeslaList[indice];
+                    Console.WriteLine($"\n\nEstá seguro de que quiere eliminar el Tesla modelo {Tx.Modelo}, del año: {Tx.Anio}? (s/n)");
                     string f = Console.ReadLine();
                     if (f == "s")
                     {
@@ -74,7 +75,7 @@ namespace TeslaSystem
                     Console.WriteLine("Id inválido.");
                 }
 
-            
+        
         }
 
         // Función para mostrar la lista de Teslas
