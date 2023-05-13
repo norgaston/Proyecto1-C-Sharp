@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TeslaSystem"
   ],
-  "SelectedNode": "\\TeslaSystem.sln",
+  "SelectedNode": "\\TeslaSystem\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
