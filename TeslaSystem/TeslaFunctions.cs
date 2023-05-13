@@ -48,19 +48,33 @@ namespace TeslaSystem
         // Función para eliminar un Tesla de la lista
         public static void EliminarTesla(List<Tesla> TeslaList)
         {
+
             ListarTeslas(TeslaList);
             Console.WriteLine("\n\nIngrese el id del Tesla a eliminar:");
             int indice = Convert.ToInt32(Console.ReadLine());
 
-            if (indice < TeslaList.Count)
-            {
-                TeslaList.RemoveAt(indice);
-                Console.WriteLine("Tesla eliminado exitosamente!");
-            }
-            else
-            {
-                Console.WriteLine("Id inválido.");
-            }
+            
+          
+                if (indice < TeslaList.Count)
+                {
+                    Console.WriteLine("\n\nEstá seguro de que quiere eliminar Tesla? (s/n)");
+                    string f = Console.ReadLine();
+                    if (f == "s")
+                    {
+                        TeslaList.RemoveAt(indice);
+                        Console.WriteLine("Tesla eliminado exitosamente!");
+                    }
+                    else 
+                    {
+                        Console.WriteLine("Operación cancelada");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Id inválido.");
+                }
+
+            
         }
 
         // Función para mostrar la lista de Teslas

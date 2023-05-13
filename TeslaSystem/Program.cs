@@ -36,7 +36,7 @@ namespace TeslaSystem
                     case 1:
                         TeslaFunctions.DarDeAlta(TeslaList);
                         break;
-                    case 2:
+                    case 2:  
                         TeslaFunctions.EliminarTesla(TeslaList);
                         break;
                     case 3:
