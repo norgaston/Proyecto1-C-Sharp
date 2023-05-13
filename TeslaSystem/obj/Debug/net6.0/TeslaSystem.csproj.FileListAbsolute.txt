@@ -28,3 +28,18 @@ C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\Tes
 C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\TeslaSystem.pdb
 C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\TeslaSystem.genruntimeconfig.cache
 C:\Users\Gaston\Documents\UPSO\2023\PROGRAMACIÓN C#.NET\Proyectos\Proyecto1\TeslaSystem\obj\Debug\net6.0\ref\TeslaSystem.dll
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\bin\Debug\net6.0\TeslaSystem.exe
+C:\Users\Pablo\source\repos\proyecto1-c-sharp\TeslaSystem\bin\Debug\net6.0\TeslaSystem.deps.json
+C:\Users\Pablo\source\repos\proyecto1-c-sharp\TeslaSystem\bin\Debug\net6.0\TeslaSystem.runtimeconfig.json
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\bin\Debug\net6.0\TeslaSystem.dll
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\bin\Debug\net6.0\TeslaSystem.pdb
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\obj\Debug\net6.0\TeslaSystem.csproj.AssemblyReference.cache
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\obj\Debug\net6.0\TeslaSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\obj\Debug\net6.0\TeslaSystem.AssemblyInfoInputs.cache
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\obj\Debug\net6.0\TeslaSystem.AssemblyInfo.cs
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\obj\Debug\net6.0\TeslaSystem.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\obj\Debug\net6.0\TeslaSystem.dll
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\obj\Debug\net6.0\refint\TeslaSystem.dll
+C:\Users\Pablo\Source\Repos\proyecto1-c-sharp\TeslaSystem\obj\Debug\net6.0\TeslaSystem.pdb
+C:\Users\Pablo\source\repos\proyecto1-c-sharp\TeslaSystem\obj\Debug\net6.0\TeslaSystem.genruntimeconfig.cache
+C:\Users\Pablo\source\repos\proyecto1-c-sharp\TeslaSystem\obj\Debug\net6.0\ref\TeslaSystem.dll

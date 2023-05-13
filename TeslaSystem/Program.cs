@@ -10,11 +10,13 @@ namespace TeslaSystem
             // Declaración de la lista de Teslas
             List<Tesla> TeslaList = new List<Tesla>();
 
+            Console.WriteLine("\n\nBienvenido al Sistema Tesla!");
+            
             while (true)
             {
                 // Menú principal del programa
-                Console.WriteLine("\n\nBienvenido al Sistema Tesla!");
-                Console.WriteLine("Seleccione una opción:");
+                //Console.WriteLine("\n\nBienvenido al Sistema Tesla!");
+                Console.WriteLine("\nSeleccione una opción:");
                 Console.WriteLine("1 - Dar de alta un Tesla.");
                 Console.WriteLine("2 - Eliminar un Tesla.");
                 Console.WriteLine("3 - Mostrar un listado de los Tesla ordenados por año.");
