@@ -6,6 +6,8 @@ namespace TeslaSystem
     // Declaración de la estructura Tesla que almacena información sobre un automóvil Tesla
     public struct Tesla
     {
+        public int Id;
+
         public string Modelo; // El modelo del Tesla
         public int Anio; // El año del Tesla
         public double KmActual; // El kilometraje actual del Tesla
@@ -16,11 +18,16 @@ namespace TeslaSystem
 
     public struct TeslaFunctions
     {
+        static int contador = 1;
         // Función para dar de alta un nuevo Tesla en la lista
         public static void DarDeAlta(List<Tesla> TeslaList)
         {
+            
+
             // Crear un nuevo Tesla y pedir al usuario que ingrese sus detalles
             Tesla nuevoTesla = new Tesla();
+
+            
 
             Console.WriteLine("\n\nIngrese el modelo:");
             nuevoTesla.Modelo = Console.ReadLine();
@@ -40,6 +47,11 @@ namespace TeslaSystem
             Console.WriteLine("Ingrese el dueño:");
             nuevoTesla.Dueno = Console.ReadLine();
 
+            //////////para id/////////
+            
+            nuevoTesla.Id = contador;
+            contador++;
+
             // Agregar el nuevo Tesla a la lista
             TeslaList.Add(nuevoTesla);
             Console.WriteLine("Tesla agregado exitosamente!");
@@ -50,32 +62,20 @@ namespace TeslaSystem
         {
 
             ListarTeslas(TeslaList);
-            Console.WriteLine("\n\nIngrese el id del Tesla a eliminar:");
-            int indice = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("\n\nIngrese el Id del Tesla a eliminar:");
+            int id = Convert.ToInt32(Console.ReadLine());
+            int index = TeslaList.FindIndex(t => t.Id == id);
 
-            
-          
-                if (indice < TeslaList.Count)
-                {
-                    Tesla Tx = TeslaList[indice];
-                    Console.WriteLine($"\n\nEstá seguro de que quiere eliminar el Tesla modelo {Tx.Modelo}, del año: {Tx.Anio}? (s/n)");
-                    string f = Console.ReadLine();
-                    if (f == "s")
-                    {
-                        TeslaList.RemoveAt(indice);
-                        Console.WriteLine("Tesla eliminado exitosamente!");
-                    }
-                    else 
-                    {
-                        Console.WriteLine("Operación cancelada");
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Id inválido.");
-                }
+            if (index != -1)
+            {
+                TeslaList.RemoveAt(index);
+                Console.WriteLine("Tesla eliminado exitosamente!");
+            }
+            else
+            {
+                Console.WriteLine("No se encontró ningún Tesla con el Id especificado.");
+            }
 
-        
         }
 
         // Función para mostrar la lista de Teslas
@@ -86,7 +86,7 @@ namespace TeslaSystem
             for (int i = 0; i < TeslaList.Count; i++)
             {
                 Tesla t = TeslaList[i];
-                Console.WriteLine($"Id: {i}, Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
+                Console.WriteLine($"Id: {t.Id}, Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
             }
         }
 
@@ -99,7 +99,7 @@ namespace TeslaSystem
             // Recorre la lista ordenada y muestra la información de cada Tesla.
             foreach (Tesla t in TeslaList)
             {
-                Console.WriteLine($"Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
+                Console.WriteLine($"Id: {t.Id}, Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
             }
         }
 
@@ -112,7 +112,7 @@ namespace TeslaSystem
             // Recorre la lista ordenada y muestra la información de cada Tesla.
             foreach (Tesla t in TeslaList)
             {
-                Console.WriteLine($"Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
+                Console.WriteLine($"Id: {t.Id}, Modelo: {t.Modelo}, Año: {t.Anio}, Kilometraje: {t.KmActual}, Dueño: {t.Dueno}");
             }
         }
 
