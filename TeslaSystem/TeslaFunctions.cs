@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using TeslaSystem;
 
 namespace TeslaSystem
 {
-    // Declaración de la estructura Tesla que almacena información sobre un automóvil Tesla
+    /// <summary>
+    /// Estructura que almacena información sobre un automóvil Tesla.
+    /// </summary>
     public struct Tesla
     {
-        public int Id;
-
+        public int Id; // Id del Tesla
         public string Modelo; // El modelo del Tesla
         public int Anio; // El año del Tesla
         public double KmActual; // El kilometraje actual del Tesla
@@ -16,18 +18,23 @@ namespace TeslaSystem
         public string Dueno; // El dueño del Tesla
     }
 
+    /// <summary>
+    /// Estructura que contiene funciones para manejar la lista de Teslas.
+    /// </summary>
     public struct TeslaFunctions
     {
         static int contador = 1;
-        // Función para dar de alta un nuevo Tesla en la lista
+        /// <summary>
+        /// Función para dar de alta un nuevo Tesla en la lista.
+        /// </summary>
         public static void DarDeAlta(List<Tesla> TeslaList)
         {
-            
+
 
             // Crear un nuevo Tesla y pedir al usuario que ingrese sus detalles
             Tesla nuevoTesla = new Tesla();
 
-            
+
 
             Console.WriteLine("\n\nIngrese el modelo:");
             nuevoTesla.Modelo = Console.ReadLine();
@@ -48,7 +55,7 @@ namespace TeslaSystem
             nuevoTesla.Dueno = Console.ReadLine();
 
             //////////para id/////////
-            
+
             nuevoTesla.Id = contador;
             contador++;
 
@@ -57,7 +64,10 @@ namespace TeslaSystem
             Console.WriteLine("Tesla agregado exitosamente!");
         }
 
-        // Función para eliminar un Tesla de la lista
+        /// <summary>
+        /// Función para eliminar un Tesla de la lista.
+        /// </summary>
+        /// <param name="TeslaList">La lista de Teslas.</param>
         public static void EliminarTesla(List<Tesla> TeslaList)
         {
 
@@ -78,7 +88,10 @@ namespace TeslaSystem
 
         }
 
-        // Función para mostrar la lista de Teslas
+        /// <summary>
+        /// Función para mostrar la lista de Teslas.
+        /// </summary>
+        /// <param name="TeslaList">La lista de Teslas.</param>
         public static void ListarTeslas(List<Tesla> TeslaList)
         {
             Console.WriteLine("\n\nListado de Teslas:");
@@ -90,7 +103,10 @@ namespace TeslaSystem
             }
         }
 
-        // Función para ordenar Teslas por año
+        /// <summary>
+        /// Función para ordenar Teslas por año.
+        /// </summary>
+        /// <param name="TeslaList">Lista de Teslas a ordenar.</param>
         public static void ListadoOrdenadoPorAnio(List<Tesla> TeslaList)
         {
             // Ordena la lista de Teslas por año utilizando la función Sort y una lambda expression que compara los años de dos Teslas.
@@ -103,7 +119,10 @@ namespace TeslaSystem
             }
         }
 
-        // Función para ordenar Teslas por kilómetros
+        /// <summary>
+        /// Función para ordenar Teslas por kilómetros.
+        /// </summary>
+        /// <param name="TeslaList">Lista de Teslas a ordenar.</param>
         public static void ReordenarPorKms(List<Tesla> TeslaList)
         {
             // Ordena la lista de Teslas por kilómetros utilizando la función Sort y una lambda expression que compara los kilómetros de dos Teslas.
@@ -116,7 +135,10 @@ namespace TeslaSystem
             }
         }
 
-        // Función para mostrar el Tesla con más kilometraje
+        /// <summary>
+        /// Función para identificar el Tesla con más kilómetros en la lista.
+        /// </summary>
+        /// <param name="TeslaList">Lista de Teslas a verificar.</param>
         public static void MostrarMasKms(List<Tesla> TeslaList)
         {
             // Verifica si la lista de Teslas está vacía
@@ -143,4 +165,3 @@ namespace TeslaSystem
         }
     }
 }
-
